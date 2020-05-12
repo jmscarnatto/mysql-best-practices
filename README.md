@@ -2,6 +2,20 @@
 
 ## SECURITY
 
+### Define Application-Specific Database Users
+> For each application running on the server, only give access to a user who is in charge of a database for a given application. For example, if you have a wordpress site, create a specific user for the wordpress site database as follows.
+```
+mysql -u root -p
+> CREATE DATABASE osclass_db;
+> CREATE USER 'osclassdmin'@'localhost' IDENTIFIED BY 'osclass@dmin%!2';
+> GRANT ALL PRIVILEGES ON osclass_db.* TO 'osclassdmin'@'localhost';
+> FLUSH PRIVILEGES;
+> exit
+```
+and remember to always remove user accounts that are no longer managing any application database on the server.
+
+
+
 
 ## PERFORMANCE
 
