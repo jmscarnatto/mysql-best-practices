@@ -14,7 +14,8 @@ mysql -u root -p
 ```
 and remember to always remove user accounts that are no longer managing any application database on the server.
 
-
+### Others
+https://www.upguard.com/articles/top-11-ways-to-improve-mysql-security
 
 
 ## PERFORMANCE
