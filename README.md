@@ -21,6 +21,11 @@ mysql -u root -p
 ```
 and remember to always remove user accounts that are no longer managing any application database on the server.
 
+Ejemplo para privilegios remotos en la subred 186.182.3.1 - 186.182.3.254
+```
+GRANT ALL PRIVILEGES ON osclass_db.* TO 'remoteosclassdmin'@'186.182.3.%' IDENTIFIED BY 'PASSWORD' WITH GRANT OPTION;
+```
+
 ### Others
 https://www.upguard.com/articles/top-11-ways-to-improve-mysql-security
 
