@@ -2,7 +2,7 @@
 
 ## SECURITY
 
-Definir 4 usuarios 
+Para cada base definir 4 usuarios particulares 
 1) solo lectura local ( para logins y consultas SELECT )
 2) read-write no delete local
 3) only delete local
