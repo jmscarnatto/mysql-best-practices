@@ -2,6 +2,13 @@
 
 ## SECURITY
 
+Definir 4 usuarios 
+1) solo lectura local ( para logins y consultas SELECT )
+2) read-write no delete local
+3) only delete local
+4) full remoto - nombre bien ofuscado
+
+
 ### Define Application-Specific Database Users
 > For each application running on the server, only give access to a user who is in charge of a database for a given application. For example, if you have a wordpress site, create a specific user for the wordpress site database as follows.
 ```
