@@ -30,7 +30,7 @@ GRANT ALL PRIVILEGES ON osclass_db.* TO 'remoteosclassdmin'@'186.182.3.%' IDENTI
 https://www.upguard.com/articles/top-11-ways-to-improve-mysql-security
 
 
-## PERFORMANCE
+## 📊 PERFORMANCE
 
 ### Always use proper datatype.
 > Use datatypes based on the nature of data. If you use irrelevant datatypes it may consume more space or may lead to errors.
