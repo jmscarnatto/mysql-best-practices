@@ -1,6 +1,6 @@
 # Mysql Best Practices
 
-## SECURITY
+## 🛡 SECURITY
 
 Para cada base definir 4 usuarios particulares 
 1) solo lectura local ( para logins y consultas SELECT )
