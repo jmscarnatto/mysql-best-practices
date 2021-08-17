@@ -9,7 +9,7 @@ Para cada base definir 4 usuarios particulares
 4) full remoto - nombre bien ofuscado
 
 
-### Define Application-Specific Database Users
+### 👨‍✈️ Define Application-Specific Database Users
 > For each application running on the server, only give access to a user who is in charge of a database for a given application. For example, if you have a wordpress site, create a specific user for the wordpress site database as follows.
 ```
 mysql -u root -p
